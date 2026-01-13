@@ -1,0 +1,25 @@
+String ->
+Immutable
+Thread safe
+slowest
+stores in String Pool
+used for simple small, fixed texts
+
+
+StringBuilder ->
+Mutable
+Method chaining (method ke peeche method)
+Initially StringBuilder has a capacity of 16 (character array) if it fills the size doubles.
+Not thread safe
+stores in heap
+used for single threaded apps
+
+
+StringBuffer ->
+Same as StringBuider but is thread safe.
+internally it uses synchronized keyword in all the stringbuilder functions
+slower
+stores in heap
+used for multi-threaded apps
+
+*sometimes stringbuffer gives faster output than stringbuilder bcoz stringbuilder leads to caching sometimes.
