@@ -47,6 +47,14 @@ public class Implementation {
             temp.next = newNode;
         }
 
+        int getElement(int index){
+            Node temp = head;
+            for(int i=0;i<index;i++){
+                temp = temp.next;
+            }
+            return temp.val;
+        }
+
     }
     public static void main(String[] args){
         linkedlist ll = new linkedlist();
