@@ -7,3 +7,6 @@
 6. [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 7. [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
 8. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+9. [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
+10. [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+11. [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
