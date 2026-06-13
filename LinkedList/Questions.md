@@ -6,3 +6,4 @@
 5. [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/)
 6. [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 7. [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+8. [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
