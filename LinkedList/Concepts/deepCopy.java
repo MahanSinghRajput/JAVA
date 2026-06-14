@@ -18,5 +18,20 @@ class deepCopy {
         d.next = e;
         e.next = null;
 
+        Node temp = new Node(-1);
+        Node h = temp;
+        Node t = a;
+        while(t != null){
+            Node newNode = new Node(t.data);
+            temp.next = newNode;
+            temp = newNode;
+            t = t.next;
+        }
+        h = h.next;
+        t = h;
+        while(t != null){
+            System.out.print(t.data + " ");
+            t = t.next;
+        }
     }
 }
