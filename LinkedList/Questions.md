@@ -10,3 +10,7 @@
 9. [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
 10. [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 11. [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+12. [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
+13. [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)
+14. [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
+15. [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
