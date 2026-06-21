@@ -5,3 +5,5 @@
 4. [Next Greater Element II]()
 5. [Stock Span Problem](https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1)
 6. [Online Stock Span](https://leetcode.com/problems/online-stock-span/)
+7. [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+8. [Min Stack](https://leetcode.com/problems/min-stack/)
