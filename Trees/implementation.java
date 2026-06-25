@@ -35,6 +35,31 @@ public class implementation {
         return 1 + left + right;
     }
 
+    // gives the totalSum of all the nodes
+    public static int totalSum(Node root){
+        if(root == null) return 0;
+        return root.val + totalSum(root.left) + totalSum(root.right);
+    }
+
+    // gives the max value of the tree
+    public static int max(Node root){
+        if(root == null) return 0;
+        return Math.max(root.val, Math.max(max(root.left), max(root.right)));
+    }
+
+    // height of the tree (node-wise)
+    public static int height(Node root){
+        if(root == null) return 0;
+        return 1 + Math.max(height(root.left), height(root.right));
+    }
+
+    // height of the tree (edge-wise)
+    public static int height2(Node root){
+        if(root == null) return 0;
+        if(root.left == null && root.right == null) return 0;
+        return 1 + Math.max(height2(root.left), height2(root.right));
+    }
+
     public static void main(String[] args) {
         Node a = new Node(1);
         Node b = new Node(2);
@@ -50,5 +75,9 @@ public class implementation {
 
         //display(a);
         System.out.println(size(a));
+        System.out.println(totalSum(a));
+        System.out.println(max(a));
+        System.out.println(height(a));
+        System.out.println(height2(a));
     }
 }
